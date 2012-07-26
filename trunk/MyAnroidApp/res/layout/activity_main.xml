@@ -1,64 +1,6 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" >
 
-    <LinearLayout
-        android:id="@+id/linearLayout1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:orientation="vertical" >
-
-        <LinearLayout
-            android:layout_width="319dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="12.86" >
-
-            <TextView
-                android:id="@+id/textView1"
-                android:layout_width="106dp"
-                android:layout_height="59dp"
-                android:layout_weight="0.07"
-                android:text="TextView" />
-        </LinearLayout>
-
-        <Button
-            android:id="@+id/button1"
-            style="@style/AppTheme"
-            android:layout_width="match_parent"
-            android:layout_height="108dp"
-            android:text="Button" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignRight="@+id/linearLayout1"
-        android:layout_below="@+id/linearLayout1" >
-
-        <ListView
-            android:id="@+id/listView1"
-            android:layout_width="151dp"
-            android:layout_height="wrap_content" >
-
-        </ListView>
-
-        <ExpandableListView
-            android:id="@+id/expandableListView1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" >
-        </ExpandableListView>
-
-        <RatingBar
-            android:id="@+id/ratingBar1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
 
     </LinearLayout>
-
-</RelativeLayout>
