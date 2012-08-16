@@ -1,4 +1,4 @@
 =Introduction=
 this page is intended to give the general information about the project.
-[http://code.google.com/android-tut/w/preface Next] 
+[http://code.google.com/android-tut/wiki/preface Next] 
  
